@@ -17,9 +17,23 @@
   <ItemGroup>
     <None Remove="Controls\" />
     <None Remove="Helpers\" />
+    <None Remove="Resources\" />
+    <None Remove="Resources\Fonts\" />
+    <None Remove="Resources\Fonts\SourceSansPro-Bold.ttf" />
+    <None Remove="Resources\Fonts\SourceSansPro-Italic.ttf" />
+    <None Remove="Resources\Fonts\SourceSansPro-Light.ttf" />
+    <None Remove="Resources\Fonts\SourceSansPro-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\SourceSansPro-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\SourceSansPro-Italic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\SourceSansPro-Light.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\SourceSansPro-Regular.ttf" />
   </ItemGroup>
 </Project>
